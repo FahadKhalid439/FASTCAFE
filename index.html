@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAST CAFE</title>
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background: #fdf6e9;
+        display: flex;
+        justify-content: center;
+    }
+    .page{
+        width: 650px;
+        background: white;
+        border: 12px solid #fdf6e9;
+        box-shadow: 0 0 10px #ccc;
+    }
+    .header{
+        background: #5C3A21;
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+    .header h1{ margin:5px; letter-spacing: 2px; }
+    .header p{ font-style: italic; font-size: 12px; margin:0; }
+    .logo{
+        width: 60px; height: 60px;
+        background: #fdf6e9;
+        border-radius: 50%;
+        margin: 0 auto 10px;
+        line-height: 60px;
+        font-size: 30px;
+        color: #5C3A21;
+    }
+    .content{ padding: 20px 30px; }
+    .title{
+        font-weight: bold;
+        color: #5C3A21;
+        border-bottom: 1px dashed #5C3A21;
+        padding-bottom: 5px;
+        margin-top: 25px;
+    }
+    .offer{
+        background: #FFF3D6;
+        border: 1px solid #D9B88A;
+        text-align: center;
+        padding: 15px;
+        margin: 15px 0;
+    }
+    .offer b{ color: #B33A3A; }
+    .offer small{ font-size: 11px; }
+
+    .two-col{ display: flex; gap: 30px; }
+    .col{ flex: 1; }
+    table{ width: 100%; border-collapse: collapse; font-size: 13px; margin-top:8px;}
+    th{ background: #5C3A21; color: white; text-align: left; padding: 5px; }
+    td{ border: 1px solid #ddd; padding: 5px; }
+    .price{ color: #B33A3A; font-weight: bold; text-align: right; }
+
+    ul{ font-size: 13px; padding-left: 18px; }
+    li{ margin: 4px 0; }
+
+    .footer{
+        background: #5C3A21;
+        color: #ccc;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+<div class="page">
+    <div class="header">
+        <div class="logo">☕</div>
+        <h1>FAST CAFE</h1>
+        <p>Fast service, Fresh taste.</p>
+    </div>
+
+<div class="content">
+    <div class="title">Today's Special</div>
+    <div class="offer">
+        <b>Buy any Latte, get a Brownie at half price!</b><br>
+        <small>Available every day from 4:00 PM to 6:00 PM</small>
+    </div>
+
+    <div class="two-col">
+        <div class="col">
+            <div class="title">Hot Drinks</div>
+            <table>
+                <tr><th>Item</th><th>Price (Rs.)</th></tr>
+                <tr><td>Espresso</td><td class="price">250</td></tr>
+                <tr><td>Cappuccino</td><td class="price">400</td></tr>
+                <tr><td>Cafe Latte</td><td class="price">450</td></tr>
+            </table>
+        </div>
+        <div class="col">
+            <div class="title">Cold Drinks</div>
+            <table>
+                <tr><th>Item</th><th>Price (Rs.)</th></tr>
+                <tr><td>Iced Coffee</td><td class="price">420</td></tr>
+                <tr><td>Mint Margarita</td><td class="price">350</td></tr>
+                <tr><td>Mango Shake</td><td class="price">380</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="two-col">
+        <div class="col">
+            <div class="title">Snacks</div>
+            <ul>
+                <li>Chicken Sandwich - Rs. 550</li>
+                <li>French Fries - Rs. 280</li>
+                <li>Club Sandwich - Rs. 600</li>
+                <li>Chicken Roll - Rs. 350</li>
+            </ul>
+        </div>
+        <div class="col">
+            <div class="title">Desserts</div>
+            <ul>
+                <li>Chocolate Brownie - Rs. 300</li>
+                <li>Blueberry Muffin - Rs. 260</li>
+                <li>Cheesecake Slice - Rs. 450</li>
+                <li>Vanilla Ice Cream - Rs. 220</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="title">Opening Hours</div>
+    <ol style="font-size:13px;">
+        <li>Monday to Friday: 8:30 AM - 5:00 PM</li>
+        <li>Saturday: 9:00 AM - 1:00 PM</li>
+        <li>Sunday: Closed</li>
+    </ol>
+
+    <div class="title">Visit Us</div>
+    <p style="font-size:13px; line-height:18px;">
+        <b>Address:</b> FAST University Lahore, Block-B, Faisal Town, Lahore<br>
+        <b>Phone:</b> 042-111-128-128<br>
+        <b>Email:</b> <u>hello@fastcafe.example</u>
+    </p>
+</div>
+<div class="footer">Created for the Introduction to Information and Technology course</div>
+</div>
+</body>
+</html>
